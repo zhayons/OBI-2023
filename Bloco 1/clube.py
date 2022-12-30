@@ -7,4 +7,3 @@ members_sum = input_2[0] + input_2[1] + input_2[2] + input_2[6] - input_2[3] - i
 
 out_value = "N" if members_sum <= input_1 else "S"
 print(out_value)
-S
