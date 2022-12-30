@@ -1,3 +1,5 @@
+# exercício de: https://olimpiada.ic.unicamp.br/pratique/p1/2016/f1/clube/
+
 input_1 = int(input())
 input_2 = [int(i) for i in input().split(" ")]
 
