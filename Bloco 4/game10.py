@@ -1,4 +1,4 @@
-# exercício de:
+# exercício de: https://olimpiada.ic.unicamp.br/pratique/p2/2017/f1/game10/
 
 NUM_positions = int(input())
 MISSEL_posiition = int(input())
