@@ -1,1 +1,1 @@
-# exercício de: https://olimpiada.ic.unicamp.br/pratique/p2/2018/f1/compensacao/
+# exercício de: https://olimpiada.ic.unicamp.br/pratique/p2/2018/f1/figurinhas/
