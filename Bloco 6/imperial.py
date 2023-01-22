@@ -1,30 +1,34 @@
 # exercício de: https://olimpiada.ic.unicamp.br/pratique/p2/2019/f1/imperial/
 
-def ocorrencias(item):
-    count = 0
-    item_posicoes = []
-    for i in range(N_sequencia):
-        if sequencia[i] == item:
-            count += 1
-            item_posicoes.append(i)
-    return count, item_posicoes
+def consecutivo(posicao_sequencia):
+
+    for i in posicao_sequencia:
+
 
 
 N_sequencia = int(input())
 sequencia = [int(input()) for i in range(N_sequencia)]
 
 valores_unicos = []
+posicoes = []
 output = 0
 
 for i in range(N_sequencia):
     if sequencia[i] not in valores_unicos:
         valores_unicos.append(sequencia[i])
-        i_ocorrencias, i_posicoes = ocorrencias(sequencia[i])
-        if output <= i_ocorrencias:
-            for j in range(i+1, N_sequencia):
-                if sequencia[j] not in
-            output = i_ocorrencias
+        i_posicoes = []
+        for j in range(i, N_sequencia):
+            if sequencia[i] == sequencia[j]:
+                i_posicoes.append(j)
+        posicoes.append(i_posicoes)
+
+N_valores_unicos = len(valores_unicos)
+for i in range(N_valores_unicos):
+    N_posicoes = len(posicoes[i])
+    if N_posicoes > output:
+        output = N_posicoes
+
 
 print(N_sequencia, sequencia)
-print(ocorrencias(10), posicoes)
-print(valores_unicos)
+print(valores_unicos, posicoes)
+print(output)
