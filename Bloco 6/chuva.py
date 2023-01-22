@@ -23,7 +23,6 @@ matriz = []
 for i in range(N_i):
     matriz.append([*input()])
 
-print('\n')
 incompleto = True
 while incompleto:
     incompleto = substitui()
